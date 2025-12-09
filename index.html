@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Thread Co.,Ltd. - บริษัท โกลเด้นเธร็ด จำกัด</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        .gold-text {
+            color: #A07635;
+            /* Approximation of the gold color */
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(to bottom, #C6934B, #8B6228);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-link {
+            color: #A07635;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+        }
+
+        .nav-link:hover {
+            color: #7a5820;
+        }
+
+        .section-header {
+            color: #A07635;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+            /* Subtle underline effect */
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        /* Custom shadows/borders to match the 2000s web style slightly updated */
+        .content-box {
+            background-color: #fff;
+        }
+
+        .footer-logo {
+            height: 100px;
+            object-fit: contain;
+        }
+
+        .oeko-logo-new {
+            height: 100px;
+            object-fit: contain;
+        }
+
+        .header-logo {
+            width: 400px;
+            height: 60px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm border-b-4 border-yellow-600">
+        <div class="container mx-auto px-4 py-2">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="relative header-logo">
+                        <img src="img/logo.png" alt="Golden Thread Logo" class="w-full h-full object-contain drop-shadow-md">
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav>
+                    <ul class="flex space-x-8 text-sm md:text-base">
+                        <li><a href="#" class="nav-link">PROFILE</a></li>
+                        <li><a href="#" class="nav-link">PRODUCTS</a></li>
+                        <li><a href="#" class="nav-link">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8 space-y-12 max-w-5xl bg-white shadow-xl my-4 pb-12">
+
+        <!-- Section 1: Company Profile -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div class="space-y-4">
+                <h3 class="section-header">บริษัท</h3>
+                <p class="text-sm md:text-base leading-relaxed text-gray-700">
+                    ด้วยประสบการณ์กว่า 50 ปี ของการเป็นผู้ผลิตด้ายเย็บ
+                    เราจึงทราบถึงความต้องการของลูกค้าในการนำด้ายเย็บไปใช้งานเพื่อให้มีประสิทธิภาพและไว้วางใจ
+                    ทางเราให้ความสำคัญกับความพิถีพิถันตั้งแต่การคัดเลือกวัตถุดิบ
+                    และมีการตรวจสอบคุณภาพทุกขั้นตอนด้วยเครื่องมือที่ทันสมัยและได้มาตรฐาน
+                    ผลิตภัณฑ์ทุกๆชิ้นได้ผ่านการตรวจสอบมาเป็นอย่างดี
+                    ทางบริษัทมั่นใจในความเป็นหนึ่งในผู้นำด้านการผลิตและจำหน่ายสินค้า
+                    ด้ายเย็บที่ครบครันทั้งคุณภาพและการบริการที่รวดเร็ว
+                    จนเป็นที่ยอมรับจากธุรกิจการ์เม้นท์ที่ผลิตเสื้อผ้าคุณภาพสูงที่มีชื่อเสียงในประเทศไทย
+                </p>
+                <div class="relative mt-4">
+                    <span
+                        class="absolute bottom-2 left-2 text-white font-serif italic text-lg shadow-black drop-shadow-md z-10">
+                    </span>
+                </div>
+            </div>
+
+            <div class="flex space-x-1 h-64 md:h-80">
+                <!-- Mockup for Factory Images -->
+                <div class="w-1/2 h-full relative overflow-hidden">
+                    <img src="img/fac.png" alt="Company Building" class="object-cover w-full h-full">
+                    <div class="absolute bottom-2 left-2 text-white font-serif text-shadow text-lg drop-shadow-lg">
+                    </div>
+                </div>
+                <div class="w-1/2 h-full relative overflow-hidden">
+                    <img src="img/fac2.jpg" alt="Factory Interior" class="object-cover w-full h-full">
+                    <div class="absolute bottom-2 right-2 text-white font-serif text-shadow text-lg drop-shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Products -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-50 p-6 rounded-lg">
+            <div class="order-2 md:order-1 h-64 md:h-auto relative">
+                <img src="img/aboutus7.jpg" alt="Colorful Threads" class="w-full h-full object-cover rounded shadow-md">
+            </div>
+
+            <div class="order-1 md:order-2 space-y-4">
+                <h3 class="section-header">ผลิตภัณฑ์</h3>
+                <p class="text-sm md:text-base leading-relaxed text-gray-700">
+                    ทางบริษัทมีผลิตภัณฑ์ที่เป็นที่นิยมของตลาดทั้ง Spun Polyester, Core Spun Textured Poly เป็นต้น
+                    ซึ่งได้รับการยอมรับในการใช้งานจากลูกค้า ทั้งในเรื่องคุณภาพในการเย็บ และการบริการที่รวดเร็ว
+                    ทางบริษัทมีสินค้าหลากหลายและสีสันมากกว่า 1,000 สี เพื่อรองรับความต้องการของลูกค้า ภายใต้แบรนด์
+                    ตราสายรุ้ง ตราไพ่ ตราจักร และตราภูเขาไฟ
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 3: Services -->
+        <section>
+            <h3 class="section-header">การบริการ</h3>
+            <p class="text-sm md:text-base leading-relaxed text-gray-700">
+                โกลเด้นเธร็ด ให้ความสำคัญและใส่ใจในการบริการ การส่งสินค้ารวดเร็วและตรงเวลา คือหัวใจสำคัญของเรา
+                อีกทั้งมีทีมงานที่มีประสบการณ์ในด้านเทคนิคและการผลิต ซึ่งพร้อมให้บริการอย่างเต็มความสามารถ ให้คำแนะนำ
+                และเป็นที่ปรึกษาแก่ลูกค้าได้เป็นอย่างดี
+            </p>
+        </section>
+
+        <!-- Section 4: Quality & Footer Logos -->
+        <section class="border-t pt-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+                <!-- Quality Text -->
+                <div>
+                    <h3 class="section-header">คุณภาพสินค้า</h3>
+                    <p class="text-sm md:text-base leading-relaxed text-gray-700 mb-6">
+                        บริษัทมีกระบวนการการผลิตที่มีมาตรฐาน และผ่านการรับรองการตรวจสอบคุณภาพสินค้าตามมาตรฐานสากล ISO
+                        9001 รวมถึงความปลอดภัยจากการใช้ผลิตภัณฑ์ บริษัทยังได้รับการรับรองจาก สถาบันตรวจสอบของ Oeko Tex
+                        Standard 100 จากประเทศสวิตเซอร์แลนด์ ซึ่งเป็นที่ยอมรับจากทั่วโลก
+                    </p>
+                </div>
+
+                <!-- Logos Row -->
+                <div class="flex flex-wrap justify-center items-center gap-6">
+                    <!-- NEW OEKOTEX LOGO (Green Teardrop) -->
+                    <div class="flex flex-col items-center">
+                        <img src="img/OEKOTEX.png" alt="OEKO-TEX Standard 100 New Logo" class="oeko-logo-new">
+                    </div>
+
+                    <!-- ISO 9001 Bureau Veritas -->
+                    <div class="flex flex-col items-center">
+                        <img src="img/1.png" alt="ISO 9001 Bureau Veritas" class="footer-logo">
+                    </div>
+
+                    <!-- WRAP Logo -->
+                    <div class="flex flex-col items-center">
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-4 text-gray-500 text-xs">
+        &copy; 2024 Golden Thread Co.,Ltd. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
